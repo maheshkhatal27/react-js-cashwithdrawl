@@ -1,0 +1,80 @@
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.withdrawal-container {
+  background-color: #150b3e;
+  background-size: cover;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 450px;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.circle {
+  border-radius: 50%;
+  background-color: #c7d2fe;
+  height: 75px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s-title {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+.name {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  font-size: 28px;
+  margin-left: 25px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.your-balance {
+  color: #382f5a;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+
+.rupee-amt {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+.in-rupees {
+  color: #382f5a;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.withdraw {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+.choose-sum {
+  color: #382f5a;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.denomination-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}

@@ -1,0 +1,17 @@
+.denomination-container {
+  list-style-type: none;
+}
+.denomination {
+  color: #c7d2fe;
+  font-size: 28px;
+  background-color: #585076;
+  border-radius: 5px;
+  border: 1px solid #c7d2fe;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  cursor: pointer;
+  outline: none;
+}
